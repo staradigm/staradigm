@@ -1,3 +1,1 @@
-# Star Adigm
-
-Software engineer building practical tools for travel and productivity.
+Hi, I'm Star Adigm, a software engineer focused on travel‑assistant tools and automation.
