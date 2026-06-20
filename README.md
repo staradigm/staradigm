@@ -1,3 +1,3 @@
 # Star Adigm
 
-Software engineer interested in travel tech and automation.
+Software engineer building practical tools for travel and productivity.
