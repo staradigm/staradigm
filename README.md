@@ -50,6 +50,38 @@ Automation -> reliable pipelines, developer workflows, operational leverage
 ![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=nodedotjs&logoColor=38bdf8)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=38bdf8)
 ![Docker](https://img.shields.io/badge/Docker-0f172a?style=for-the-badge&logo=docker&logoColor=38bdf8)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0f172a?style=for-the-badge&logo=githubactions&logoColor=38bdf8)
+
+</div>
+
+---
+
+### 🧭 Projects
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**streak-bot**](https://github.com/staradigm/streak-bot) | Keeps the contribution graph warm — a random 5–20 commits every day, fully automated | GitHub Actions · bash |
+| [**gh-streak**](https://github.com/staradigm/gh-streak) | Contribution-streak analytics from the CLI: current/longest streaks and an ASCII year calendar | Python (stdlib-only) |
+| [**mot-metrics**](https://github.com/staradigm/mot-metrics) | Lightweight MOTA / MOTP / IDF1 tracking metrics with Hungarian matching | Python · NumPy |
+| [**dotfiles**](https://github.com/staradigm/dotfiles) | Dev environment: shell config, aliases, and a one-command installer | bash · zsh · make |
+
+---
+
+### 📊 GitHub stats
+
+<div align="center">
+
+![stats](https://github-readme-stats.vercel.app/api?username=staradigm&show_icons=true&hide_border=true&bg_color=0f172a&title_color=22D3EE&icon_color=4f46e5&text_color=94a3b8)
+![streak](https://streak-stats.demolab.com/?user=staradigm&hide_border=true&background=0f172a&stroke=1e293b&ring=4f46e5&fire=22D3EE&currStreakNum=94a3b8&sideNums=94a3b8&currStreakLabel=22D3EE&sideLabels=94a3b8&dates=64748b)
+![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=staradigm&layout=compact&hide_border=true&bg_color=0f172a&title_color=22D3EE&text_color=94a3b8)
+
+</div>
+
+---
+
+<div align="center">
+
+![contribution snake](https://raw.githubusercontent.com/staradigm/staradigm/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 

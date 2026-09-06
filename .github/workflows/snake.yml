@@ -1,0 +1,28 @@
+name: generate-snake
+
+on:
+  schedule:
+    # regenerate every night so the snake reflects the latest contributions
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate the snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: staradigm
+          outputs: |
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Publish to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output
+          publish_branch: output
