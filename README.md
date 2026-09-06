@@ -62,7 +62,7 @@ Automation -> reliable pipelines, developer workflows, operational leverage
 | --- | --- | --- |
 | [**streak-bot**](https://github.com/staradigm/streak-bot) | Keeps the contribution graph warm — a random 5–20 commits every day, fully automated | GitHub Actions · bash |
 | [**gh-streak**](https://github.com/staradigm/gh-streak) | Contribution-streak analytics from the CLI: current/longest streaks and an ASCII year calendar | Python (stdlib-only) |
-| [**mot-metrics**](https://github.com/staradigm/mot-metrics) | Lightweight MOTA / MOTP / IDF1 tracking metrics with Hungarian matching | Python · NumPy |
+| [**mot-metrics**](https://github.com/staradigm/mot-metrics) | Lightweight MOTA / MOTP / IDF1 tracking metrics with Hungarian matching | Python (zero deps) |
 | [**dotfiles**](https://github.com/staradigm/dotfiles) | Dev environment: shell config, aliases, and a one-command installer | bash · zsh · make |
 
 ---
