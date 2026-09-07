@@ -58,12 +58,16 @@ Automation -> reliable pipelines, developer workflows, operational leverage
 
 ### 🧭 Projects
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [**streak-bot**](https://github.com/staradigm/streak-bot) | Keeps the contribution graph warm — a random 5–20 commits every day, fully automated | GitHub Actions · bash |
-| [**gh-streak**](https://github.com/staradigm/gh-streak) | Contribution-streak analytics from the CLI: current/longest streaks and an ASCII year calendar | Python (stdlib-only) |
-| [**mot-metrics**](https://github.com/staradigm/mot-metrics) | Lightweight MOTA / MOTP / IDF1 tracking metrics with Hungarian matching | Python (zero deps) |
-| [**dotfiles**](https://github.com/staradigm/dotfiles) | Dev environment: shell config, aliases, and a one-command installer | bash · zsh · make |
+| Project | What it does | Stack | CI |
+| --- | --- | --- | --- |
+| [**tiny-unet**](https://github.com/staradigm/tiny-unet) | Minimal, readable U-Net for cell segmentation — trains from a single command on synthetic data | Python · PyTorch | [![CI](https://github.com/staradigm/tiny-unet/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/tiny-unet/actions/workflows/ci.yml) |
+| [**contrib-calendar**](https://github.com/staradigm/contrib-calendar) | Zero-dependency SVG contribution heatmap (GitHub-style calendar) for any data | TypeScript | [![CI](https://github.com/staradigm/contrib-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/contrib-calendar/actions/workflows/ci.yml) |
+| [**pr-size-label**](https://github.com/staradigm/pr-size-label) | GitHub Action that auto-labels PRs by diff size — lockfile-aware, idempotent | Python · Docker | [![CI](https://github.com/staradigm/pr-size-label/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/pr-size-label/actions/workflows/ci.yml) |
+| [**nvim-config**](https://github.com/staradigm/nvim-config) | Fast, lazy-loaded Neovim config: LSP, treesitter, lazygit, polish | Lua | [![CI](https://github.com/staradigm/nvim-config/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/nvim-config/actions/workflows/ci.yml) |
+| [**gh-streak**](https://github.com/staradigm/gh-streak) | Contribution-streak analytics from the CLI: current/longest streaks and an ASCII year calendar | Python (stdlib-only) | [![CI](https://github.com/staradigm/gh-streak/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/gh-streak/actions/workflows/ci.yml) |
+| [**mot-metrics**](https://github.com/staradigm/mot-metrics) | Lightweight MOTA / MOTP / IDF1 tracking metrics with Hungarian matching | Python (zero deps) | [![CI](https://github.com/staradigm/mot-metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/staradigm/mot-metrics/actions/workflows/ci.yml) |
+| [**dotfiles**](https://github.com/staradigm/dotfiles) | Dev environment: shell config, aliases, and a one-command installer | bash · zsh | — |
+| [**streak-bot**](https://github.com/staradigm/streak-bot) | Keeps the contribution graph warm — a random 5–20 commits every day, fully automated *(private)* | GitHub Actions · bash | — |
 
 ---
 
